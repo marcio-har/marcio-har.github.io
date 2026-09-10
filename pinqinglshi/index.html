@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>聘请律师法律顾问-企业个人法律顾问服务与选聘指南</title>
+<meta name="description" content="聘请律师法律顾问前需要了解什么？本页梳理法律顾问的服务内容、适用场景、选聘流程、收费方式、合同要点与常见问题，帮助企业和个人稳妥选择合适的律师顾问。">
+<meta name="keywords" content="聘请律师法律顾问,法律顾问服务,企业法律顾问,个人法律顾问,律师顾问选聘,法律顾问收费">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+:root{
+  --navy:#12263f;
+  --navy-2:#1c3a5e;
+  --gold:#b5893b;
+  --gold-soft:#e6d3ac;
+  --ink:#1f2933;
+  --gray:#5c6b7a;
+  --line:#e2e8ef;
+  --bg:#f6f8fb;
+  --white:#ffffff;
+  --radius:10px;
+  --shadow:0 6px 24px rgba(18,38,63,.08);
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{
+  font-family:"PingFang SC","Hiragino Sans GB","Microsoft YaHei",system-ui,-apple-system,sans-serif;
+  color:var(--ink);
+  background:var(--bg);
+  line-height:1.75;
+  font-size:16px;
+}
+a{color:inherit;text-decoration:none;}
+ul{list-style:none;}
+img{max-width:100%;display:block;}
+
+/* ===== 顶部信息条 ===== */
+.topbar{
+  background:var(--navy);
+  color:#c9d6e4;
+  font-size:13px;
+  padding:8px 0;
+}
+.topbar .wrap{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:16px;
+  flex-wrap:wrap;
+}
+.topbar span.tel{color:var(--gold-soft);letter-spacing:.5px;}
+
+.wrap{
+  width:100%;
+  max-width:1180px;
+  margin:0 auto;
+  padding:0 20px;
+}
+
+/* ===== 页眉 ===== */
+.site-header{
+  background:var(--white);
+  border-bottom:1px solid var(--line);
+  position:sticky;
+  top:0;
+  z-index:50;
+}
+.header-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:24px;
+  padding:16px 0;
+  flex-wrap:wrap;
+}
+.brand{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+.brand-mark{
+  width:44px;height:44px;
+  border-radius:8px;
+  background:linear-gradient(140deg,var(--navy),var(--navy-2));
+  color:var(--gold-soft);
+  display:flex;align-items:center;justify-content:center;
+  font-size:20px;font-weight:700;
+  letter-spacing:1px;
+  flex-shrink:0;
+}
+.brand-text strong{
+  display:block;
+  font-size:19px;
+  letter-spacing:1px;
+  color:var(--navy);
+}
+.brand-text small{
+  color:var(--gray);
+  font-size:12px;
+  letter-spacing:.5px;
+}
+.main-nav{
+  display:flex;
+  gap:26px;
+  flex-wrap:wrap;
+  font-size:15px;
+}
+.main-nav a{
+  color:var(--navy-2);
+  padding:6px 0;
+  border-bottom:2px solid transparent;
+  transition:.2s;
+}
+.main-nav a:hover{
+  color:var(--gold);
+  border-bottom-color:var(--gold);
+}
+.header-cta{
+  background:var(--gold);
+  color:#fff;
+  padding:10px 20px;
+  border-radius:6px;
+  font-size:14px;
+  white-space:nowrap;
+  transition:.2s;
+  border:none;
+  cursor:pointer;
+}
+.header-cta:hover{background:#9d7530;}
+
+/* ===== 首屏 ===== */
+.hero{
+  background:linear-gradient(160deg,#12263f 0%,#1c3a5e 55%,#24486f 100%);
+  color:#eaf1f8;
+  padding:60px 0 54px;
+  position:relative;
+  overflow:hidden;
+}
+.hero::after{
+  content:"";
+  position:absolute;
+  right:-120px;top:-120px;
+  width:420px;height:420px;
+  border-radius:50%;
+  background:radial-gradient(circle,rgba(181,137,59,.28),transparent 70%);
+}
+.hero-grid{
+  display:grid;
+  grid-template-columns:1.35fr 1fr;
+  gap:44px;
+  align-items:center;
+  position:relative;
+  z-index:2;
+}
+.hero h1{
+  font-size:34px;
+  line-height:1.35;
+  letter-spacing:1px;
+  margin-bottom:18px;
+  font-weight:700;
+}
+.hero h1 em{
+  font-style:normal;
+  color:var(--gold-soft);
+}
+.hero p.lead{
+  font-size:16px;
+  color:#c6d5e5;
+  max-width:640px;
+  margin-bottom:26px;
+}
+.hero-tags{
+  display:flex;
+  flex-wrap:wrap;
+  gap:10px;
+  margin-bottom:28px;
+}
+.hero-tags span{
+  font-size:13px;
+  padding:6px 14px;
+  border:1px solid rgba(230,211,172,.42);
+  border-radius:999px;
+  color:var(--gold-soft);
+}
+.hero-actions{
+  display:flex;
+  gap:14px;
+  flex-wrap:wrap;
+}
+.btn-primary{
+  background:var(--gold);
+  color:#fff;
+  padding:13px 28px;
+  border-radius:6px;
+  font-size:15px;
+  transition:.2s;
+  display:inline-block;
+}
+.btn-primary:hover{background:#9d7530;}
+.btn-ghost{
+  border:1px solid rgba(255,255,255,.5);
+  color:#eaf1f8;
+  padding:13px 26px;
+  border-radius:6px;
+  font-size:15px;
+  transition:.2s;
+  display:inline-block;
+}
+.btn-ghost:hover{background:rgba(255,255,255,.12);}
+
+.hero-panel{
+  background:rgba(255,255,255,.07);
+  border:1px solid rgba(255,255,255,.16);
+  border-radius:var(--radius);
+  padding:26px 24px;
+  backdrop-filter:blur(4px);
+}
+.hero-panel h2{
+  font-size:16px;
+  color:var(--gold-soft);
+  margin-bottom:16px;
+  letter-spacing:1px;
+  font-weight:600;
+}
+.hero-panel li{
+  font-size:14px;
+  color:#d6e2ee;
+  padding:9px 0 9px 20px;
+  position:relative;
+  border-bottom:1px dashed rgba(255,255,255,.14);
+}
+.hero-panel li:last-child{border-bottom:none;}
+.hero-panel li::before{
+  content:"";
+  position:absolute;
+  left:0;top:17px;
+  width:7px;height:7px;
+  border-radius:50%;
+  background:var(--gold);
+}
+
+/* ===== 通用区块 ===== */
+section{padding:56px 0;}
+.section-head{
+  margin-bottom:34px;
+}
+.section-head .eyebrow{
+  font-size:13px;
+  letter-spacing:2px;
+  color:var(--gold);
+  text-transform:uppercase;
+  margin-bottom:8px;
+  font-weight:600;
+}
+.section-head h2{
+  font-size:25px;
+  color:var(--navy);
+  letter-spacing:.5px;
+  font-weight:700;
+}
+.section-head p{
+  color:var(--gray);
+  font-size:15px;
+  margin-top:8px;
+  max-width:760px;
+}
+
+/* ===== 服务内容 ===== */
+.services{background:var(--white);}
+.service-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
+}
+.service-card{
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  padding:26px 24px;
+  background:var(--white);
+  transition:.25s;
+  border-top:3px solid var(--navy);
+}
+.service-card:hover{
+  box-shadow:var(--shadow);
+  transform:translateY(-3px);
+  border-top-color:var(--gold);
+}
+.service-card h3{
+  font-size:17px;
+  color:var(--navy);
+  margin-bottom:10px;
+  font-weight:600;
+}
+.service-card p{
+  font-size:14px;
+  color:var(--gray);
+}
+.service-card ul{
+  margin-top:12px;
+}
+.service-card li{
+  font-size:13.5px;
+  color:#4a5a6a;
+  padding-left:16px;
+  position:relative;
+  margin-bottom:6px;
+}
+.service-card li::before{
+  content:"—";
+  position:absolute;
+  left:0;
+  color:var(--gold);
+}
+
+/* ===== 适用场景 ===== */
+.scene{
+  background:var(--bg);
+}
+.scene-layout{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:36px;
+  align-items:start;
+}
+.scene-block{
+  background:var(--white);
+  border-radius:var(--radius);
+  padding:28px 26px;
+  box-shadow:var(--shadow);
+  border-left:4px solid var(--gold);
+}
+.scene-block h3{
+  font-size:18px;
+  color:var(--navy);
+  margin-bottom:14px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+.scene-block h3 i{
+  font-style:normal;
+  width:30px;height:30px;
+  background:var(--navy);
+  color:var(--gold-soft);
+  border-radius:6px;
+  display:inline-flex;align-items:center;justify-content:center;
+  font-size:15px;
+  flex-shrink:0;
+}
+.scene-block p{
+  font-size:14.5px;
+  color:var(--gray);
+  margin-bottom:10px;
+}
+.scene-block ul li{
+  font-size:14px;
+  color:#3d4c5b;
+  padding:7px 0 7px 18px;
+  position:relative;
+  border-bottom:1px dashed var(--line);
+}
+.scene-block ul li:last-child{border-bottom:none;}
+.scene-block ul li::before{
+  content:"✓";
+  position:absolute;
+  left:0;
+  color:var(--gold);
+  font-size:13px;
+}
+
+/* ===== 选聘流程 ===== */
+.process{background:var(--white);}
+.steps{
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:20px;
+  counter-reset:step;
+}
+.step{
+  position:relative;
+  padding:26px 20px 22px;
+  background:var(--bg);
+  border-radius:var(--radius);
+  border:1px solid var(--line);
+}
+.step::before{
+  counter-increment:step;
+  content:counter(step,decimal-leading-zero);
+  font-size:26px;
+  font-weight:700;
+  color:var(--gold-soft);
+  display:block;
+  margin-bottom:10px;
+  letter-spacing:1px;
+}
+.step h3{
+  font-size:16px;
+  color:var(--navy);
+  margin-bottom:8px;
+}
+.step p{
+  font-size:13.5px;
+  color:var(--gray);
+}
+
+/* ===== 收费与合同 ===== */
+.fee{
+  background:linear-gradient(180deg,#eef3f9,#f6f8fb);
+}
+.fee-grid{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:22px;
+  margin-bottom:36px;
+}
+.fee-card{
+  background:var(--white);
+  border-radius:var(--radius);
+  padding:26px 24px;
+  border:1px solid var(--line);
+  text-align:left;
+}
+.fee-card .tag{
+  display:inline-block;
+  font-size:12px;
+  color:var(--gold);
+  border:1px solid var(--gold-soft);
+  padding:3px 10px;
+  border-radius:999px;
+  margin-bottom:14px;
+}
+.fee-card h3{
+  font-size:17px;
+  color:var(--navy);
+  margin-bottom:10px;
+}
+.fee-card p{
+  font-size:14px;
+  color:var(--gray);
+}
+.contract-note{
+  background:var(--white);
+  border-radius:var(--radius);
+  padding:28px 26px;
+  border:1px solid var(--line);
+}
+.contract-note h3{
+  font-size:18px;
+  color:var(--navy);
+  margin-bottom:14px;
+}
+.contract-note ol{
+  padding-left:20px;
+  color:#3d4c5b;
+  font-size:14.5px;
+}
+.contract-note ol li{
+  margin-bottom:9px;
+  padding-left:4px;
+}
+
+/* ===== 常见问题 ===== */
+.faq{background:var(--white);}
+.faq-list{
+  max-width:900px;
+}
+.faq-item{
+  border:1px solid var(--line);
+  border-radius:var(--radius);
+  margin-bottom:14px;
+  overflow:hidden;
+  background:var(--white);
+}
+.faq-item summary{
+  cursor:pointer;
+  padding:18px 22px;
+  font-size:15.5px;
+  font-weight:600;
+  color:var(--navy);
+  list-style:none;
+  position:relative;
+  padding-right:52px;
+  transition:.2s;
+}
+.faq-item summary::-webkit-details-marker{display:none;}
+.faq-item summary::after{
+  content:"+";
+  position:absolute;
+  right:22px;top:50%;
+  transform:translateY(-50%);
+  font-size:20px;
+  color:var(--gold);
+  font-weight:400;
+  transition:.25s;
+}
+.faq-item[open] summary::after{
+  content:"–";
+}
+.faq-item[open] summary{
+  color:var(--gold);
+}
+.faq-item .faq-body{
+  padding:0 22px 20px;
+  font-size:14.5px;
+  color:var(--gray);
+  border-top:1px dashed var(--line);
+  padding-top:16px;
+}
+
+/* ===== 侧栏提示 ===== */
+.notice-band{
+  background:var(--navy);
+  color:#d6e2ee;
+  padding:38px 0;
+}
+.notice-band .wrap{
+  display:flex;
+  gap:24px;
+  align-items:center;
+  justify-content:space-between;
+  flex-wrap:wrap;
+}
+.notice-band h2{
+  font-size:20px;
+  color:#fff;
+  margin-bottom:6px;
+}
+.notice-band p{
+  font-size:14px;
+  color:#a9bccf;
+  max-width:640px;
+}
+.notice-band .btn-primary{flex-shrink:0;}
+
+/* ===== 页脚 ===== */
+.site-footer{
+  background:#0d1c2e;
+  color:#8ea3b8;
+  padding:46px 0 26px;
+  font-size:14px;
+}
+.footer-grid{
+  display:grid;
+  grid-template-columns:1.6fr 1fr 1fr 1fr;
+  gap:32px;
+  margin-bottom:32px;
+}
+.footer-grid h3{
+  color:#dce7f2;
+  font-size:15px;
+  margin-bottom:14px;
+  font-weight:600;
+}
+.footer-grid p{
+  font-size:13.5px;
+  line-height:1.9;
+}
+.footer-grid li{
+  margin-bottom:9px;
+  font-size:13.5px;
+}
+.footer-grid a:hover{color:var(--gold-soft);}
+.footer-bottom{
+  border-top:1px solid rgba(255,255,255,.1);
+  padding-top:20px;
+  font-size:13px;
+  color:#6f8499;
+  display:flex;
+  justify-content:space-between;
+  gap:14px;
+  flex-wrap:wrap;
+}
+
+/* ===== 响应式 ===== */
+@media (max-width:980px){
+  .hero-grid{grid-template-columns:1fr;gap:32px;}
+  .service-grid{grid-template-columns:repeat(2,1fr);}
+  .steps{grid-template-columns:repeat(2,1fr);}
+  .fee-grid{grid-template-columns:1fr;}
+  .footer-grid{grid-template-columns:1fr 1fr;}
+}
+@media (max-width:680px){
+  body{font-size:15px;}
+  .hero{padding:42px 0 40px;}
+  .hero h1{font-size:25px;}
+  .section-head h2{font-size:21px;}
+  .service-grid{grid-template-columns:1fr;}
+  .scene-layout{grid-template-columns:1fr;}
+  .steps{grid-template-columns:1fr;}
+  .main-nav{gap:16px;font-size:14px;}
+  .header-cta{padding:9px 16px;font-size:13px;}
+  .footer-grid{grid-template-columns:1fr;}
+  section{padding:42px 0;}
+  .topbar .wrap{justify-content:center;text-align:center;}
+}
+</style>
+</head>
+<body>
+
+<!-- 顶部信息条 -->
+<div class="topbar">
+  <div class="wrap">
+    <span>法律顾问服务信息参考 · 选聘流程与注意事项梳理</span>
+    <span class="tel">咨询与沟通请通过正规律师事务所渠道进行</span>
+  </div>
+</div>
+
+<!-- 页眉 -->
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="brand">
+      <div class="brand-mark">法</div>
+      <div class="brand-text">
+        <strong>法律顾问服务指南</strong>
+        <small>聘请律师 · 顾问选聘参考</small>
+      </div>
+    </div>
+    <nav class="main-nav" aria-label="主导航">
+      <a href="#services">服务内容</a>
+      <a href="#scene">适用场景</a>
+      <a href="#process">选聘流程</a>
+      <a href="#fee">收费与合同</a>
+      <a href="#faq">常见问题</a>
+    </nav>
+    <a class="header-cta" href="#process">了解选聘步骤</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- 首屏 -->
+  <section class="hero" aria-label="页面导语">
+    <div class="wrap hero-grid">
+      <div>
+        <h1>聘请律师法律顾问：<em>从需求判断到签约的完整参考</em></h1>
+        <p class="lead">
+          无论是企业日常经营中的合同审查、用工管理，还是个人在婚姻家事、房产交易、债务纠纷中的长期法律需求，
+          聘请一位合适的法律顾问，往往比在纠纷发生后才临时找律师更有主动权。本页梳理法律顾问能做什么、
+          什么情况下值得聘请、如何筛选律师、费用如何计算以及合同中需要注意的条款。
+        </p>
+        <div class="hero-tags">
+          <span>企业常年顾问</span>
+          <span>个人法律顾问</span>
+          <span>专项法律顾问</span>
+          <span>合同审查</span>
+          <span>用工合规</span>
+          <span>争议预防</span>
+        </div>
+        <div class="hero-actions">
+          <a class="btn-primary" href="#services">查看顾问服务范围</a>
+          <a class="btn-ghost" href="#faq">阅读常见问题</a>
+        </div>
+      </div>
+      <aside class="hero-panel" aria-label="选聘要点速览">
+        <h2>选聘前先想清楚四件事</h2>
+        <ul>
+          <li>需求是长期陪伴，还是某一专项事务</li>
+          <li>更看重诉讼经验，还是非诉与合规能力</li>
+          <li>预算区间与计费方式是否匹配</li>
+          <li>沟通频率、响应方式能否长期维持</li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 服务内容 -->
+  <section class="services" id="services">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Scope of Service</div>
+        <h2>法律顾问通常提供哪些服务</h2>
+        <p>法律顾问的价值不只在“打官司”，更多体现在事前预防与日常决策支持。不同律师的侧重点差异较大，聘请前建议先对照自身需求逐项确认。</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card">
+          <h3>合同与文书审查</h3>
+          <p>对经营合同、合作协议、劳动文本、租赁与采购文件进行条款审阅，提示风险点并给出修改建议。</p>
+          <ul>
+            <li>合同起草与修订</li>
+            <li>格式条款风险识别</li>
+            <li>履约节点提示</li>
+          </ul>
+        </article>
+        <article class="service-card">
+          <h3>日常法律咨询</h3>
+          <p>就经营或个人事务中的具体问题提供口头或书面意见，帮助判断可行性与潜在后果。</p>
+          <ul>
+            <li>事项可行性分析</li>
+            <li>证据留存建议</li>
+            <li>处理路径比较</li>
+          </ul>
+        </article>
+        <article class="service-card">
+          <h3>用工与内部制度</h3>
+          <p>协助梳理员工手册、考勤与绩效制度、离职流程，降低劳动争议发生的概率。</p>
+          <ul>
+            <li>规章制度合规性检查</li>
+            <li>劳动合同模板</li>
+            <li>解除流程指引</li>
+          </ul>
+        </article>
+        <article class="service-card">
+          <h3>争议解决支持</h3>
+          <p>在纠纷发生后提供谈判方案、发函、仲裁或诉讼代理，也可仅在关键节点提供策略意见。</p>
+          <ul>
+            <li>协商与调解方案</li>
+            <li>律师函与证据整理</li>
+            <li>诉讼或仲裁代理</li>
+          </ul>
+        </article>
+        <article class="service-card">
+          <h3>合规与风险排查</h3>
+          <p>针对行业监管要求，协助识别经营中的合规盲区，形成可执行的整改与留痕建议。</p>
+          <ul>
+            <li>业务流程风险梳理</li>
+            <li>资质与许可提示</li>
+            <li>内部培训支持</li>
+          </ul>
+        </article>
+        <article class="service-card">
+          <h3>专项事务顾问</h3>
+          <p>围绕投融资、股权调整、知识产权、房产交易等单一事项提供阶段性深度支持。</p>
+          <ul>
+            <li>尽职调查配合</li>
+            <li>交易结构建议</li>
+            <li>文件包审核</li>
+          </ul>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 适用场景 -->
+  <section class="scene" id="scene">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">When to Hire</div>
+        <h2>什么情况下值得聘请法律顾问</h2>
+        <p>并非所有事务都需要长期顾问。判断的关键在于：法律问题是否反复出现、单次失误的代价是否较高、内部是否缺少专业判断能力。</p>
+      </div>
+      <div class="scene-layout">
+        <div class="scene-block">
+          <h3><i>企</i>企业与经营主体</h3>
+          <p>当业务涉及较多对外合同、员工规模逐步扩大、或所处行业监管要求较细时，常年法律顾问的作用会更明显。</p>
+          <ul>
+            <li>合同签署频繁，缺少统一审核流程</li>
+            <li>员工入职、调岗、离职处理不规范</li>
+            <li>存在应收账款回收与客户违约风险</li>
+            <li>需要对外融资、引入合作方或调整股权</li>
+            <li>行业监管检查较多，需要合规留痕</li>
+          </ul>
+        </div>
+        <div class="scene-block">
+          <h3><i>个</i>个人与家庭事务</h3>
+          <p>个人法律需求往往集中在特定阶段。若涉及金额较大或关系复杂，提前咨询通常比事后补救更省成本。</p>
+          <ul>
+            <li>房产买卖、租赁与继承安排</li>
+            <li>婚姻家事与财产约定</li>
+            <li>民间借贷与债务处理</li>
+            <li>劳动关系的解除与补偿争议</li>
+            <li>长期需要固定对接人的法律事务</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 选聘流程 -->
+  <section class="process" id="process">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Selection Process</div>
+        <h2>聘请律师法律顾问的一般流程</h2>
+        <p>流程清晰可以减少沟通成本，也便于后续评估顾问是否称职。以下步骤可根据事务复杂程度适当合并。</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <h3>梳理需求</h3>
+          <p>列出当前最需要解决的问题、发生频率与紧急程度，区分长期需求与一次性专项。</p>
+        </div>
+        <div class="step">
+          <h3>筛选律师</h3>
+          <p>关注执业领域、过往案例方向、沟通方式与可投入时间，而不只看名气或单一头衔。</p>
+        </div>
+        <div class="step">
+          <h3>沟通与报价</h3>
+          <p>就服务范围、响应方式、计费口径进行明确沟通，必要时要求书面说明。</p>
+        </div>
+        <div class="step">
+          <h3>签订合同</h3>
+          <p>以书面委托合同约定服务内容、期限、费用、保密与解除条件，留存双方确认记录。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 收费与合同 -->
+  <section class="fee" id="fee">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">Fee &amp; Contract</div>
+        <h2>收费方式与合同要点</h2>
+        <p>法律顾问的收费没有统一标准，通常与地区、律师资历、服务范围和工作量相关。以下为常见计费方式的说明，具体以双方约定为准。</p>
+      </div>
+      <div class="fee-grid">
+        <div class="fee-card">
+          <span class="tag">常见方式</span>
+          <h3>按年计费</h3>
+          <p>适合常年法律顾问，约定一年内的服务范围与响应方式。超出范围的事项通常另行计费，需在合同中写清边界。</p>
+        </div>
+        <div class="fee-card">
+          <span class="tag">常见方式</span>
+          <h3>按项目计费</h3>
+          <p>适合投融资、股权调整、专项合规等阶段性事务，按工作量、复杂程度或标的规模协商确定。</p>
+        </div>
+        <div class="fee-card">
+          <span class="tag">常见方式</span>
+          <h3>按小时计费</h3>
+          <p>适合需求零散、难以预估工作量的情形。建议约定计时单位、记录方式与费用上限。</p>
+        </div>
+      </div>
+      <div class="contract-note">
+        <h3>签订委托合同时建议确认的内容</h3>
+        <ol>
+          <li>服务范围：包含哪些事项，哪些属于另行收费的额外工作。</li>
+          <li>服务方式：由谁对接、响应时间、是否提供书面意见。</li>
+          <li>费用构成：基础费用、差旅、诉讼相关费用是否单独计算。</li>
+          <li>保密条款：涉及经营信息与个人隐私时的保密义务。</li>
+          <li>解除与变更：中途终止合作时费用如何处理。</li>
+          <li>利益冲突：是否存在代理对方当事人的情形。</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- 常见问题 -->
+  <section class="faq" id="faq">
+    <div class="wrap">
+      <div class="section-head">
+        <div class="eyebrow">FAQ</div>
+        <h2>聘请律师法律顾问常见问题</h2>
+        <p>以下问题在实际咨询中出现频率较高，答案仅为一般性说明，具体情形仍需结合事实与当地规定判断。</p>
+      </div>
+      <div class="faq-list">
+        <details class="faq-item" open>
+          <summary>法律顾问和代理律师有什么区别？</summary>
+          <div class="faq-body">
+            法律顾问更偏向长期、日常的支持，包括咨询、审查、风险提示与制度建议；代理律师通常针对具体案件或专项事务，以完成某一目标为导向。实务中两者可能由同一位律师承担，也可能分开安排。
+          </div>
+        </details>
+        <details class="faq-item">
+          <summary>小规模企业有必要请常年顾问吗？</summary>
+          <div class="faq-body">
+            如果合同量不大、用工简单、业务模式清晰，可以先采用按次咨询或专项服务的方式。当合同、用工或合规问题开始反复出现，且内部缺少判断能力时，再考虑转为常年顾问通常更经济。
+          </div>
+        </details>
+        <details class="faq-item">
+          <summary>如何判断律师是否适合自己的事务？</summary>
+          <div class="faq-body">
+            可以关注其执业领域是否与你的问题匹配、是否处理过类似类型的事务、沟通时能否把复杂问题讲清楚，以及是否愿意说明方案的风险与不确定性。头衔和宣传材料只能作为参考。
+          </div>
+        </details>
+        <details class="faq-item">
+          <summary>顾问费用可以协商吗？</summary>
+          <div class="faq-body">
+            法律服务费用通常由双方协商确定，受地区、资历、事务复杂度等因素影响。建议在委托前明确计费口径与费用上限，避免后续因工作量认定产生分歧。
+          </div>
+        </details>
+        <details class="faq-item">
+          <summary>顾问可以同时代理对方当事人吗？</summary>
+          <div class="faq-body">
+            存在利益冲突的情形通常受到执业规范限制。聘请前可以主动询问对方是否与你的交易相对方、竞争对手存在委托关系，并在合同中作出相应约定。
+          </div>
+        </details>
+        <details class="faq-item">
+          <summary>合作一段时间后觉得不合适怎么办？</summary>
+          <div class="faq-body">
+            建议在委托合同中提前约定解除条件与费用结算方式。若确需更换，应做好资料交接，确保案件材料、合同文本与沟通记录完整移交。
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 提示条 -->
+  <section class="notice-band" aria-label="温馨提示">
+    <div class="wrap">
+      <div>
+        <h2>聘请前多做一步确认</h2>
+        <p>核实律师执业信息、明确服务范围、保留书面委托文件，是降低后续沟通成本的有效方式。本页内容为一般性信息整理，不构成针对具体事务的法律意见。</p>
+      </div>
+      <a class="btn-primary" href="#services">返回服务范围</a>
+    </div>
+  </section>
+
+</main>
+
+<!-- 页脚 -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h3>法律顾问服务指南</h3>
+        <p>围绕聘请律师法律顾问的常见疑问，整理服务内容、适用场景、选聘流程、收费方式与合同要点，供企业与个人在决策前参考。</p>
+      </div>
+      <div>
+        <h3>内容导航</h3>
+        <ul>
+          <li><a href="#services">服务内容</a></li>
+          <li><a href="#scene">适用场景</a></li>
+          <li><a href="#process">选聘流程</a></li>
+          <li><a href="#fee">收费与合同</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>相关主题</h3>
+        <ul>
+          <li>企业常年法律顾问</li>
+          <li>个人法律顾问</li>
+          <li>合同审查要点</li>
+          <li>用工合规提示</li>
+        </ul>
+      </div>
+      <div>
+        <h3>说明</h3>
+        <ul>
+          <li>本页为信息整理内容</li>
+          <li>不构成法律意见</li>
+          <li>具体事务请咨询执业律师</li>
+          <li>以当地规定与合同约定为准</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 法律顾问服务指南 · 信息参考页面</span>
+      <span>内容仅供一般性了解，具体问题请结合实际情况判断</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+      </html>
